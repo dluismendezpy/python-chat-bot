@@ -76,7 +76,8 @@ def check_all_messages(message):
              required_words=['donde'], single_response=True)
 
     # Buenos dias, buenas tardes, buenos noches, ¿Como estas?, ¿Como te sientes?, ¿Como esta todo?
-    response('Saludos, buenas, ¿en que puedo ayudarte?', ['ubicados', 'ubicacion', 'calle'],
+    response('Saludos, buenas, ¿en que puedo ayudarte?',
+             ['Buenas', 'tardes', 'dias', 'dia', 'noche', 'hola', 'saludos'],
              required_words=['como'], single_response=True)
 
     # ¿Cual es el numero telefonico del ITLA?
