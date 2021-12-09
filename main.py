@@ -51,8 +51,10 @@ def check_all_messages(message):
 
 
 def unknown():
-    response = ['puedes decirlo de nuevo?', 'No estoy seguro de lo quieres', 'búscalo en google a ver que tal'][
-        random.randrange(3)]
+    response = [
+        '¿Puedes repetirlo?',
+        'Lo siento, no estoy seguro de lo quieres decir',
+        'Búscalo en google a ver que tal'][random.randrange(3)]
     return response
 
 
